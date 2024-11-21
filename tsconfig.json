@@ -13,6 +13,12 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "plugins": [
       {
         "name": "next"
